@@ -1,0 +1,38 @@
+name: pizza_grocery
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_core: any
+  bloc: any
+  equatable: any
+  flutter_bloc: any
+  font_awesome_flutter: ^10.7.0
+  icons_plus: ^5.0.0
+
+  pizza_repository:
+    path: packages/pizza_repository
+
+  user_repository:
+    path: packages/user_repository
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
